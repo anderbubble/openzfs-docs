@@ -35,7 +35,8 @@
 ### Usable
 
 - http://open-zfs.org/wiki/Special:AllPages
-  - http://open-zfs.org/wiki/Features
+  - http://open-zfs.org/wiki/Hardware
+  - http://open-zfs.org/wiki/History
 http://open-zfs.org/w/index.php?title=Special%3AAllPages&from=&to=&namespace=4
 - https://github.com/openzfs/zfs/wiki
 

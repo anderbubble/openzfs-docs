@@ -25,3 +25,4 @@ for any specific platform.)
    introduction-to-zfs
    zfs-storage-pools
    on-disk-format
+   license
