@@ -1,0 +1,33 @@
+Feature Flag,"Read-Only
+Compatible",OpenZFS (upstream),DragonFlyBSD,FreeBSD,Illumos,Joyent,NetBSD,OmniOSCE,macOS / OS X,Linux
+bookmark_v2,no,yes,no,no,yes,yes,no,master,1.9.0,0.8.1
+encryption,no,yes,no,no,yes,yes,no,master,1.9.0,0.8.1
+resilver_defer,yes,yes,no,no,yes,yes,no,master,1.9.0,0.8.1
+async_destroy,yes,yes,yes,11.2.0,yes,yes,yes,r151028,1.9.0,0.7.13
+bookmark_written,no,no,no,no,no,no,no,no,no,master
+bookmarks,yes,yes,yes,11.2.0,yes,yes,yes,r151028,1.9.0,0.7.13
+device_removal,no,yes,no,11.2.0,yes,yes,no,r151028,1.9.0,0.8.1
+embedded_data,no,yes,yes,11.2.0,yes,yes,yes,r151028,1.9.0,0.7.13
+empty_bpobj,yes,yes,yes,11.2.0,yes,yes,yes,r151028,1.9.0,0.7.13
+enabled_txg,yes,yes,yes,11.2.0,yes,yes,yes,r151028,1.9.0,0.7.13
+extensible_dataset,no,yes,yes,11.2.0,yes,yes,yes,r151028,1.9.0,0.7.13
+hole_birth,no,yes,yes,11.2.0,yes,yes,yes,r151028,1.9.0,0.7.13
+livelist,yes,no,no,no,no,no,no,no,no,master
+log_spacemap,yes,no,no,no,no,no,no,no,no,master
+obsolete_counts,yes,yes,no,11.2.0,yes,yes,no,r151028,1.9.0,0.8.1
+redacted_datasets,no,no,no,no,no,no,no,no,no,master
+redaction_bookmarks,no,no,no,no,no,no,no,no,no,master
+spacemap_histogram,yes,yes,yes,11.2.0,yes,yes,yes,r151028,1.9.0,0.7.13
+spacemap_v2,yes,yes,no,11.3.0,yes,yes,no,r151028,1.9.0,0.8.1
+zpool_checkpoint,yes,yes,no,11.2.0,yes,yes,no,r151028,1.9.0,0.8.1
+filesystem_limits,yes,yes,yes,11.2.0,yes,yes,yes,r151028,1.9.0,0.7.13
+multi_vdev_crash_dump,no,yes,yes,11.2.0,yes,yes,yes,r151028,1.9.0,0.7.13
+edonr,no,yes,no,no,yes,yes,no,r151028,1.9.0,0.7.13
+lz4_compress,no,yes,yes,11.2.0,yes,yes,yes,r151028,1.9.0,0.7.13
+sha512,no,yes,no,11.2.0,yes,yes,yes,r151028,1.9.0,0.7.13
+skein,no,yes,no,11.2.0,yes,yes,yes,r151028,1.9.0,0.7.13
+large_blocks,no,yes,no,11.2.0,yes,yes,yes,r151028,1.9.0,0.7.13
+allocation_classes,yes,yes,no,no,yes,yes,no,master,1.9.0,0.8.1
+large_dnode,no,yes,no,no,yes,yes,no,r151030,1.9.0,0.7.13
+project_quota,yes,no,no,no,no,no,no,no,master,0.8.1
+userobj_accounting,yes,no,no,no,no,no,no,no,master,0.7.13

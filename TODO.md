@@ -27,6 +27,7 @@
 - zinject(8)
 - zpool(8)
 - zstreamdump(8)
+- zfs send/receive
 
 
 ## Things to read

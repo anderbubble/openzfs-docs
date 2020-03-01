@@ -24,4 +24,4 @@ for any specific platform.)
 
    introduction-to-zfs
    zfs-storage-pools
-   send-receive
+   on-disk-format
