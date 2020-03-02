@@ -24,6 +24,8 @@ for any specific platform.)
 
    introduction
    storage-pools
+   redundancy
    on-disk-format
    performance-tuning
+   boot-process
    license

@@ -16,6 +16,10 @@ handicaps apply to all storage stacks and are by no means specific to
 ZFS. Systems built using competing storage stacks will also benefit
 from these suggestions.
 
+ZFS is designed to use commodity hardware to store data reliably, but
+some hardware configurations are inherently unreliable to such an
+extent that no filesystem can compensate for it.
+
 
 BIOS / CPU microcode updates
 ============================
@@ -300,6 +304,18 @@ performance.
 
 Error recovery control
 ----------------------
+
+One important tweak that ZFS does not do at this time, is adjust error
+recovery control on the drives. When a drive encounters a read error,
+it will retry reads in the hope that a read from a slightly different
+angle will succeed and allow it to rewrite the sector correctly. It
+wll continue this until a timeout is reached, which is often 7 seconds
+on many drives. During this time, the drive might not serve other IO
+requests, which can have a crippling effect on IOPS because the
+transaction group commit will wait for all IOs to finish before the
+next can start. Until ZFS is changed to set this on disks that it
+controls, system administrators should use tools like smartctl and the
+system local file to do it on each boot.
 
 ZFS is said to be able to use cheap drives. This was true when it was
 introduced and hard drives supported error recovery control. Since

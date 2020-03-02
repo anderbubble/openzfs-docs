@@ -5,10 +5,23 @@
 - snapshots
 - volumes
 - send/receive
+- hot spares
+- space maps
+- intent log
+- draid
+- scrub
+- resilver
 - arc / l2arc
-  - port in section from "performance tuning"
+  - port from performance tuning
+- ashift
+  - port from performance-tuning
+- compression
+  - port from performance tuning
+- deduplication
+- metaslab
 - ZFS event daemon (ZED)
 - Solaris porting layer (SPL)
+- zfs test suite
 - Module parameters
   - ZFS
   - SPL
@@ -36,16 +49,17 @@
 - zstreamdump(8)
 
 
+## After porting both wikis and man page content
+
+- copyediting
+- open issues
+- consider porting http://open-zfs.org/wiki/ZFS_on_high_latency_devices
+
+
 ## Things to read
 
 ### Usable
 
-- http://open-zfs.org/wiki/Special:AllPages
-  - P
-    - http://open-zfs.org/wiki/Performance_tuning#General_recommendations
-  - R-S
-  - T-W
-  - Z
 - https://github.com/openzfs/zfs/wiki
 
 ### Knowledge only
