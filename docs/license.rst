@@ -1,3 +1,7 @@
+=========
+ License
+=========
+
 This documentation is provided under the terms of the creative commons
 Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license. It
 directly incorporates content from
