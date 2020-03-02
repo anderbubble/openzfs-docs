@@ -1,5 +1,10 @@
 ## Things to write about
 
+- pools
+- datasets
+- snapshots
+- volumes
+- send/receive
 - ZFS event daemon (ZED)
 - Solaris porting layer (SPL)
 - Module parameters
@@ -27,7 +32,6 @@
 - zinject(8)
 - zpool(8)
 - zstreamdump(8)
-- zfs send/receive
 
 
 ## Things to read

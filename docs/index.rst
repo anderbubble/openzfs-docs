@@ -22,7 +22,7 @@ for any specific platform.)
    :maxdepth: 1
    :caption: OpenZFS
 
-   introduction-to-zfs
-   zfs-storage-pools
+   introduction
+   storage-pools
    on-disk-format
    license
