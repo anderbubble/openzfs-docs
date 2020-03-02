@@ -39,7 +39,6 @@
 ### Usable
 
 - http://open-zfs.org/wiki/Special:AllPages
-  - L-N
   - O
   - P
   - R-S
@@ -56,7 +55,8 @@
 
 ## Things to watch
 
-- http://www.youtube.com/watch?v=BIxVSqUELNc
+- https://www.youtube.com/watch?v=BIxVSqUELNc
+- https://www.youtube.com/watch?v=MsY-BafQgj4
 
 
 ## Potentially future developer documentation
@@ -64,3 +64,5 @@
 - http://open-zfs.org/wiki/Documentation/DnodeSync
 - http://open-zfs.org/wiki/Documentation/Read_Write_Lecture
 - http://open-zfs.org/wiki/Documentation/ZFS_I/O
+- https://www.youtube.com/watch?v=ptY6-K78McY
+- https://www.youtube.com/watch?v=uJGkyMxdNFE&t=1282s
