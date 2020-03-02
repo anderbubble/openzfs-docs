@@ -35,7 +35,6 @@
 ### Usable
 
 - http://open-zfs.org/wiki/Special:AllPages
-  - I
   - L-N
   - O
   - P
