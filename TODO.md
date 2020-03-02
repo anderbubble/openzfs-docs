@@ -5,6 +5,8 @@
 - snapshots
 - volumes
 - send/receive
+- arc / l2arc
+  - port in section from "performance tuning"
 - ZFS event daemon (ZED)
 - Solaris porting layer (SPL)
 - Module parameters
@@ -39,8 +41,8 @@
 ### Usable
 
 - http://open-zfs.org/wiki/Special:AllPages
-  - O
   - P
+    - http://open-zfs.org/wiki/Performance_tuning#General_recommendations
   - R-S
   - T-W
   - Z
@@ -51,6 +53,7 @@
 - http://www.giis.co.in/Zfs_ondiskformat.pdf
 - https://pthree.org/2012/04/17/install-zfs-on-debian-gnulinux/
 - http://web.archive.org/web/20130316073014/http://hub.opensolaris.org/bin/view/Community+Group+zfs/source
+- https://www.delphix.com/blog/delphix-engineering/zfs-raidz-stripe-width-or-how-i-learned-stop-worrying-and-love-raidz
 
 
 ## Things to watch

@@ -25,4 +25,5 @@ for any specific platform.)
    introduction
    storage-pools
    on-disk-format
+   performance-tuning
    license
