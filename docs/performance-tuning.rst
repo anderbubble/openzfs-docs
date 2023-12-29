@@ -125,7 +125,7 @@ The following compression algorithms are available:
 
 LZ4
    New algorithm added after feature flags were created. It is
-   significantly superior to LZJB in all metrics tested. It is new
+   significantly superior to LZJB in all metrics tested. It is the new
    default compression algorithm (compression=on) in OpenZFS[1], but
    not all platforms have adopted the commit changing it yet.
 
@@ -134,8 +134,7 @@ LZJB
    was created to satisfy the desire for a compression algorithm
    suitable for use in filesystems. Specifically, that it provides
    fair compression, has a high compression speed, has a high
-   decompression speed and detects incompressible data detection
-   quickly.
+   decompression speed and detects incompressible data quickly.
 
 GZIP (1 through 9)
    Classic Lempel-Ziv implementation. It provides high compression,
